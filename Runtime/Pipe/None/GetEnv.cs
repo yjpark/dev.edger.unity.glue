@@ -9,7 +9,7 @@ namespace Edger.Unity.Glue.Pipe.None_ {
         }
 
         protected override Env Do(Runtime runtime, Caret caret, None input) {
-            return runtime.Env;
+            return runtime;
         }
     }
 }

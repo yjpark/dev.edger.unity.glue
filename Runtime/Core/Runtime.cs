@@ -20,7 +20,7 @@ namespace Edger.Unity.Glue {
     }
 
     [DisallowMultipleComponent()]
-    public sealed class Runtime : Aspect {
+    public sealed class Runtime : Env {
         private Dictionary<string, object> _States = new Dictionary<string, object>();
         private Dictionary<string, IScript> _Scripts = new Dictionary<string, IScript>();
         private Dictionary<string, Procedure> _Procedures = new Dictionary<string, Procedure>();
